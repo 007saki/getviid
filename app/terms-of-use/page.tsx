@@ -1,5 +1,4 @@
 import React from "react";
-import { Card, Heading, Text } from "@radix-ui/themes";
 
 export const metadata = {
   title: "Terms of Use | G.E.T.V.I.I.D.",
@@ -9,63 +8,51 @@ export const metadata = {
 
 export default function TermsOfUsePage() {
   return (
-    <main className="flex justify-center items-start min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-purple-100 py-8 px-2 sm:px-4">
-      <Card className="w-full max-w-2xl bg-white shadow-lg rounded-2xl p-6 sm:p-10 border-t-4 border-blue-600">
-        <Heading as="h1" size="7" className="mb-6 text-gray-900 font-bold text-center">
+    <main className="flex flex-col items-center bg-gradient-to-br from-gray-50 via-blue-50 to-purple-100 py-16 px-4 min-h-screen">
+      <section className="w-full max-w-2xl">
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-800 mb-6 text-center drop-shadow">
           Terms of Use
-        </Heading>
-        <Text as="p" size="4" className="mb-4 text-gray-700">
+        </h1>
+        <p className="mb-8 text-lg text-gray-800 leading-relaxed text-center">
           Welcome to G.E.T.V.I.I.D. Please read these Terms of Use {`("Terms")`} carefully before using this website. By accessing or using G.E.T.V.I.I.D., you agree to be bound by these Terms.
-        </Text>
-        <section className="mb-4">
-          <Heading as="h2" size="5" className="mb-2 text-blue-700 font-semibold">
-            1. Use of Content
-          </Heading>
-          <Text as="p" size="4" className="text-gray-700">
+        </p>
+        <div className="mb-8 bg-white/80 rounded-xl p-6 shadow border-l-4 border-blue-600">
+          <h2 className="text-xl font-bold text-blue-700 mb-2">1. Use of Content</h2>
+          <p className="text-gray-700">
             All content provided on this site is for informational and educational purposes only. You may not reproduce, distribute, or use any content without permission.
-          </Text>
-        </section>
-        <section className="mb-4">
-          <Heading as="h2" size="5" className="mb-2 text-blue-700 font-semibold">
-            2. No Professional Advice
-          </Heading>
-          <Text as="p" size="4" className="text-gray-700">
+          </p>
+        </div>
+        <div className="mb-8 bg-white/80 rounded-xl p-6 shadow border-l-4 border-blue-600">
+          <h2 className="text-xl font-bold text-blue-700 mb-2">2. No Professional Advice</h2>
+          <p className="text-gray-700">
             The information on G.E.T.V.I.I.D. is not a substitute for professional advice, diagnosis, or treatment. Always seek the advice of qualified professionals regarding any concerns about domestic violence or personal well-being.
-          </Text>
-        </section>
-        <section className="mb-4">
-          <Heading as="h2" size="5" className="mb-2 text-blue-700 font-semibold">
-            3. User Conduct
-          </Heading>
-          <Text as="p" size="4" className="text-gray-700">
+          </p>
+        </div>
+        <div className="mb-8 bg-white/80 rounded-xl p-6 shadow border-l-4 border-blue-600">
+          <h2 className="text-xl font-bold text-blue-700 mb-2">3. User Conduct</h2>
+          <p className="text-gray-700">
             You agree to use this website respectfully and lawfully. Do not post or transmit any harmful, offensive, or unlawful material.
-          </Text>
-        </section>
-        <section className="mb-4">
-          <Heading as="h2" size="5" className="mb-2 text-blue-700 font-semibold">
-            4. External Links
-          </Heading>
-          <Text as="p" size="4" className="text-gray-700">
+          </p>
+        </div>
+        <div className="mb-8 bg-white/80 rounded-xl p-6 shadow border-l-4 border-blue-600">
+          <h2 className="text-xl font-bold text-blue-700 mb-2">4. External Links</h2>
+          <p className="text-gray-700">
             G.E.T.V.I.I.D. may contain links to external sites. We are not responsible for the content or practices of those sites.
-          </Text>
-        </section>
-        <section className="mb-4">
-          <Heading as="h2" size="5" className="mb-2 text-blue-700 font-semibold">
-            5. Changes to Terms
-          </Heading>
-          <Text as="p" size="4" className="text-gray-700">
+          </p>
+        </div>
+        <div className="mb-8 bg-white/80 rounded-xl p-6 shadow border-l-4 border-blue-600">
+          <h2 className="text-xl font-bold text-blue-700 mb-2">5. Changes to Terms</h2>
+          <p className="text-gray-700">
             We may update these Terms at any time. Continued use of the site means you accept any changes.
-          </Text>
-        </section>
-        <section>
-          <Heading as="h2" size="5" className="mb-2 text-blue-700 font-semibold">
-            6. Contact
-          </Heading>
-          <Text as="p" size="4" className="text-gray-700">
+          </p>
+        </div>
+        <div className="bg-white/80 rounded-xl p-6 shadow border-l-4 border-blue-600">
+          <h2 className="text-xl font-bold text-blue-700 mb-2">6. Contact</h2>
+          <p className="text-gray-700">
             If you have any questions about these Terms, please contact the site creator.
-          </Text>
-        </section>
-      </Card>
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
