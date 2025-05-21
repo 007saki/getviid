@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://getviid.com"),
   title: "G.E.T.V.I.I.D. – Guiding Everyone To Victory In Intimate Integrity & Dignity",
   description:
     "G.E.T.V.I.I.D. empowers individuals to achieve victory in intimate integrity and dignity. Explore resources, guidance, and a supportive community for personal growth, healthy relationships, and holistic well-being.",
@@ -71,6 +72,10 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* Favicon example */}
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://getviid.com" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="Sakiasi Baleiwai Komaidrakulu" content="G.E.T.V.I.I.D. Creator" />
+        <meta name="publisher" content="G.E.T.V.I.I.D." />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Theme>
