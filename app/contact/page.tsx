@@ -18,8 +18,8 @@ export default function ContactPage() {
           reach out. Your message is important and will be handled with care and
           confidentiality.
         </p>
-      
-        <div className="mb-8 p-6 bg-white/80 rounded-xl shadow border-l-4 border-blue-600">
+
+        <div className="mb-8">
           <h2 className="text-xl font-bold text-blue-700 mb-2">Email</h2>
           <p className="text-gray-700 break-all">
             <a
@@ -30,7 +30,7 @@ export default function ContactPage() {
             </a>
           </p>
         </div>
-        <div className="p-6 bg-white/80 rounded-xl shadow border-l-4 border-purple-600">
+        <div>
           <h2 className="text-xl font-bold text-purple-700 mb-2">
             Confidentiality
           </h2>

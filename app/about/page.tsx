@@ -15,8 +15,8 @@ export default function AboutPage() {
           About G.E.T.V.I.I.D.
         </h1>
         <p className="mb-8 text-xl sm:text-2xl text-gray-700 leading-relaxed text-center max-w-2xl">
-          <span className="font-semibold text-blue-700">G.E.T.V.I.I.D.</span>{" "}
-          stands for{" "}
+          <span className="font-semibold text-blue-700">G.E.T.V.I.I.D.</span> stands
+          for{" "}
           <span className="font-semibold">
             Guiding Everyone To Victory In Intimate Integrity &amp; Dignity
           </span>
@@ -36,8 +36,8 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="w-full max-w-4xl grid gap-8 md:grid-cols-2 px-4 py-16">
-        <div className="bg-white/90 rounded-2xl p-6 shadow-md border-l-4 border-blue-600">
+      <section className="w-full max-w-4xl grid gap-12 md:grid-cols-2 px-4 py-16">
+        <div>
           <h2 className="text-2xl font-bold text-blue-700 mb-2">My Mission</h2>
           <p className="text-gray-700 text-base">
             To guide and support everyone—especially those impacted by domestic
@@ -47,7 +47,7 @@ export default function AboutPage() {
             relationships and a better future.
           </p>
         </div>
-        <div className="bg-white/90 rounded-2xl p-6 shadow-md border-l-4 border-purple-600">
+        <div>
           <h2 className="text-2xl font-bold text-purple-700 mb-2">My Vision</h2>
           <p className="text-gray-700 text-base">
             A world where every individual lives free from violence, with the
@@ -56,25 +56,23 @@ export default function AboutPage() {
           </p>
         </div>
       </section>
-
       {/* About the Creator */}
       <section className="w-full max-w-2xl mt-12 px-4 pb-16">
-        <div className="bg-white/90 rounded-2xl p-6 shadow border-l-4 border-blue-400">
-          <h2 className="text-2xl font-bold text-blue-700 mb-2">
-            About the Creator
-          </h2>
-          <p className="text-gray-700 text-base">
-            Hi, I am{" "}
-            <span className="font-semibold text-blue-700">
-              Sakiasi Baleiwai Komaidrakulu
-            </span>
-            , the creator and sole author of G.E.T.V.I.I.D. I am passionate about
-            helping others find strength, safety, and hope through awareness,
-            education, and community support—for both survivors and those seeking
-            to change.
-          </p>
-        </div>
+        <h2 className="text-2xl font-bold text-blue-700 mb-2">
+          About the Creator
+        </h2>
+        <p className="text-gray-700 text-base">
+          Hi, I am{" "}
+          <span className="font-semibold text-blue-700">
+            Sakiasi Baleiwai Komaidrakulu
+          </span>
+          , the creator and sole author of G.E.T.V.I.I.D. I am passionate about
+          helping others find strength, safety, and hope through awareness,
+          education, and community support—for both survivors and those seeking
+          to change.
+        </p>
       </section>
+
     </main>
   );
 }
