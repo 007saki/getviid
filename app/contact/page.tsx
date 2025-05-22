@@ -26,7 +26,7 @@ export default function ContactPage() {
               href="mailto:sakiasi@getviid.com"
               className="text-blue-700 underline hover:text-blue-900"
             >
-              sakiasi@getviid.com
+              support@getviid.com
             </a>
           </p>
         </div>
