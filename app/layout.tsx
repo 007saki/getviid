@@ -82,7 +82,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Theme>
           <Navbar/>
-          {children}
+          <main>{children}</main>
           <Footer/>
         </Theme>
       </body>

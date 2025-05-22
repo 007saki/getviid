@@ -12,18 +12,26 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="w-full flex flex-col justify-center items-center min-h-screen px-4 py-16 bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100">
         <h1 className="text-5xl sm:text-6xl font-extrabold text-blue-800 mb-6 text-center drop-shadow-lg">
-          Guiding Everyone To Victory In Intimate Integrity & Dignity
+          About G.E.T.V.I.I.D.
         </h1>
         <p className="mb-8 text-xl sm:text-2xl text-gray-700 leading-relaxed text-center max-w-2xl">
-          <span className="font-semibold text-blue-700">G.E.T.V.I.I.D.</span> is
-          dedicated to empowering individuals affected by domestic violence—whether
-          you are a survivor or someone seeking to change your behavior. Here,
-          you will find guidance, resources, and a supportive community to help you
-          recognize abuse, find safety, heal, and rebuild your life with dignity
-          and hope.
+          <span className="font-semibold text-blue-700">G.E.T.V.I.I.D.</span>{" "}
+          stands for{" "}
+          <span className="font-semibold">
+            Guiding Everyone To Victory In Intimate Integrity &amp; Dignity
+          </span>
+          . Our mission is to provide a safe, supportive, and empowering space for
+          anyone affected by domestic violence—survivors, those seeking to change,
+          and their supporters.
+          <br />
+          <br />
+          Here you’ll find practical resources, compassionate guidance, and a
+          community dedicated to healing, growth, and positive change. We believe
+          everyone deserves dignity, respect, and the opportunity to live free
+          from violence.
         </p>
         <span className="inline-block bg-blue-700 text-white px-6 py-3 rounded-full font-semibold shadow-lg text-lg mt-4">
-          You are not alone. Change and healing are possible.
+          Together, we can build safer, healthier lives and relationships.
         </span>
       </section>
 
