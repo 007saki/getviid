@@ -5,6 +5,7 @@ import "./globals.css";
 import { Theme } from "@radix-ui/themes";
 import Navbar from "./Navbar";
 import Footer from "./footer";
+import NewsletterModal from "@/components/NewsletterModal";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -81,6 +82,7 @@ export default function RootLayout({
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Theme>
+          <NewsletterModal/>
           <Navbar/>
           <main>{children}</main>
           <Footer/>
